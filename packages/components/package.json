@@ -1,0 +1,22 @@
+{
+  "name": "dinooxui",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "module":"es/index.js",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "build:style": "esno build/buildCss"
+  },
+  "keywords": [],
+  "typings": "lib/index.d.ts",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@dinooxui/utils": "workspace:^1.0.0"
+  }
+}
